@@ -1,15 +1,21 @@
 {
-  "name": "fpoliceTest",
+  "name": "fksDemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a fks Demo",
   "main": "app.js",
   "dependencies": {
-    "fks": "0.0.7"
+    "fks": "0.0.11",
+    "koa-body": "^4.2.0",
+    "koa-compress": "^5.0.1",
+    "koa-conditional-get": "^3.0.0",
+    "koa-ejs": "^4.3.0",
+    "koa-etag": "^4.0.0",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^2.2.5"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC"
