@@ -4,7 +4,7 @@
   "description": "this is a fks Demo",
   "main": "app.js",
   "dependencies": {
-    "fks": "0.0.11",
+    "fks": "^0.0.13",
     "koa-body": "^4.2.0",
     "koa-compress": "^5.0.1",
     "koa-conditional-get": "^3.0.0",
