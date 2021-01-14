@@ -27,17 +27,17 @@ module.exports = {
         '/files': path.resolve(FILE_BASE, './files')
     },
     Mysql: {
-        username: 'ebuserxft',
-        password: 'ebtx@df748&',
-        database: 'fks_test',
-        host: '114.115.202.238',
+        username: '',
+        password: '',
+        database: '',
+        host: '',
         port: 3306,
         dialect: 'mysql',
     },
     Redis: {
-        host: '114.115.202.238',
+        host: '',
         port: '6379',
-        password: 'aw9fTpK37m2V',
+        password: '',
         db: 1,
     },
     ejsView: {
@@ -48,9 +48,5 @@ module.exports = {
         debug: false,
     },
     order: [
-        middleware.roleRestrict,
-        middleware.initFrontViews,
-        middleware.otherApi,
-        middleware.readAllOper,
     ],
 }
