@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "fks": "0.0.6",
-    "svg-captcha": "^1.4.0"
+    "fks": "0.0.7"
   },
   "devDependencies": {},
   "scripts": {
